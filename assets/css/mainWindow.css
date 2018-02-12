@@ -1,0 +1,58 @@
+body {
+  background-image: url("../images/fondo app.jpg");
+  height: 100%;
+  widows: 100%;
+  background-size: 100vw; }
+  body .header {
+    height: 50px;
+    background-color: #ffffff; }
+    body .header img {
+      height: 100%;
+      padding: 6px;
+      padding-left: 15px; }
+  body .footer {
+    height: 50px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+    body .footer h4 {
+      padding: 8px 20px 0 0;
+      color: #00796B;
+      font-weight: 700;
+      font-style: italic; }
+  body .display {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin-top: 25vh;
+    width: 50vw;
+    height: 350px; }
+    body .display img {
+      width: 100%;
+      max-width: 280px; }
+    body .display h3 {
+      background-color: #f4f4f4;
+      border-radius: 10px;
+      padding: 3px 10px;
+      color: #00796B; }
+    body .display .login-form {
+      margin-top: 6vh; }
+    body .display .form-group {
+      max-width: 600px; }
+  body .select-com {
+    margin-top: 10px; }
+  body #selector-container {
+    margin-top: 6vh; }
+  body .hidden {
+    display: none; }
+  body .message {
+    text-align: center;
+    vertical-align: middle; }
+    body .message h1 {
+      padding-top: 70px; }
+      body .message h1 span {
+        color: #76c42e;
+        font-weight: 700; }

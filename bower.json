@@ -1,0 +1,11 @@
+{
+  "name": "cf_packages",
+  "dependencies": {
+    "components-font-awesome": "^4.7.0",
+    "bootstrap-select": "^1.12.4",
+    "moment": "^2.20.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-datepicker": "^1.7.1",
+    "jquery": "^3.2.1"
+  }
+}

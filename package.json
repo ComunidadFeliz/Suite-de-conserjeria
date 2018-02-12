@@ -1,0 +1,57 @@
+{
+  "name": "eventos",
+  "version": "0.0.1",
+  "description": "Aplicación de escritorio eventos comunidad feliz",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "sass": "node-sass -o assets/css assets/scss",
+    "pack": "build --dir",
+    "dist": "build"
+  },
+  "build": {
+    "appId": "com.github.comunidadfeliz.concierge",
+    "productName": "Evento Comunidad Feliz",
+    "icon": "assets/icons/icon.ico",
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64",
+            "ia32"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": "false",
+      "allowToChangeInstallationDirectory": true,
+      "include": "build/installer.nsh"
+    },
+    "extraFiles": [
+      "assets/3M/**/*"
+    ]
+  },
+  "author": "ComunidadFeliz SpA",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "electron-is-dev": "^0.3.0",
+    "electron-log": "^2.2.14",
+    "electron-updater": "^2.19.1",
+    "express": "^4.16.2",
+    "is-online": "^7.0.0",
+    "node-sass": "^4.7.2",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-builder": "^19.54.0",
+    "electron-packager": "^10.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ComunidadFeliz/concierge.git"
+  }
+}

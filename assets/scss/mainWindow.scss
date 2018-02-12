@@ -1,0 +1,90 @@
+@import "coloresw8";
+body{
+  background-image: url("../images/fondo app.jpg");
+  height: 100%;
+  widows: 100%;
+  background-size: 100vw;
+
+  .header {
+    height: 50px;
+    background-color: $cf_blanco;
+
+    & img {
+      height: 100%;
+      padding: 6px;
+      padding-left: 15px;
+    }
+  }
+
+  .footer {
+    height: 50px;
+    text-align: right;
+    vertical-align: middle;
+    background-color: $cf_blanco;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+    & h4 {
+      padding: 8px 20px 0 0;
+      color: $cf_verde_letra;
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+
+  .display {
+    background-color: $cf_blanco;
+    border-radius: 20px;
+    margin-top: 25vh;
+    width: 50vw;
+    height: 350px;
+    
+    img {
+      width: 100%;
+      max-width: 280px;
+      
+    }
+    
+    & h3{
+      background-color: $cf_blanco_tabla;
+      border-radius: 10px;
+      padding: 3px 10px;
+      color: $cf_verde_letra;
+    }
+
+    .login-form{
+      margin-top: 6vh;
+    }
+
+    .form-group {
+      max-width: 600px;
+    }
+  }
+
+  .select-com {
+    margin-top: 10px;
+  }
+
+  #selector-container {
+    margin-top: 6vh;
+  }
+
+  .hidden{
+    display: none;
+  }
+
+  .message{
+    text-align: center;
+    vertical-align: middle;
+    & h1 {
+      padding-top: 70px;
+      & span {
+        color: $cf_verde;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
